@@ -335,7 +335,7 @@ cite {
     text-align: center;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'wdb_bangnaregular', Helvetica, Arial, sans-serif;
+    font-family: 'quarkbold', Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
@@ -1607,19 +1607,20 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     transition: height .35s ease;
 }
 @font-face {
-    font-family: 'wdb_bangnaregular';
-    src: url('font/wdb_bangna-webfont.eot');
-    src: url('font/wdb_bangna-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/wdb_bangna-webfont.woff2') format('woff2'),
-         url('font/wdb_bangna-webfont.woff') format('woff'),
-         url('font/wdb_bangna-webfont.ttf') format('truetype');
+    font-family: 'quarkbold';
+    src: url('font/quark-bold-webfont.eot');
+    src: url('font/quark-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/quark-bold-webfont.woff2') format('woff2'),
+         url('font/quark-bold-webfont.woff') format('woff'),
+         url('font/quark-bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+
 }
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url('../fonts/glyphicons-halflings-regular.eot');
-    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+    src: url('font/fonts/glyphicons-halflings-regular.eot');
+    src: url('font/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('font/glyphicons-halflings-regular.woff') format('woff'), url('font/glyphicons-halflings-regular.ttf') format('truetype'), url('font/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
     position: relative;

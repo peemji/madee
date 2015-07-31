@@ -6,7 +6,7 @@ h4 {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
   -webkit-font-smoothing: antialiased;
-  font-family: 'wdb_bangnaregular','Open Sans', sans-serif;
+  font-family: 'quarkbold','Open Sans', sans-serif;
 }
 
 .row {
@@ -57,7 +57,7 @@ h4 {
 
 /* Declare heights because of positioning of img element */
 #myCarousel  .item {
-  height: 600px;
+  height: 400px;
   background-color:#bbb;
 }
 #myCarousel img {
@@ -76,7 +76,7 @@ h4 {
 
 
 #wrap > .container {
-  padding: 60px 15px 0;
+  padding: 40px 15px 0;
 }
 .container .credit {
   margin: 20px 0;
@@ -109,10 +109,11 @@ h1 {
   font-size:40px;
   position:absolute;
   z-index:1200;
-  color:#333;
+  color:#FFF;
   top:70px;
   text-align:center;
   width:100%;
+  text-shadow: 2px 2px #999;
 }
 
 #nav {
